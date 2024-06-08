@@ -1,0 +1,40 @@
+<mxfile host="Electron" modified="2024-02-28T08:58:27.624Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="arVyRvkRXBw2jTijIcKE" version="21.6.1" type="device">
+  <diagram name="Servlet存取过程" id="kQ5IDIObd2drRXIj6p7y">
+    <mxGraphModel dx="2704" dy="1798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ifs6sE3rr0sdltZZp5XB-1" value="DispatcherServletRegistrationConfiguration" style="shadow=1;fillColor=#A2C4C9;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-1090" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ifs6sE3rr0sdltZZp5XB-2" value="" style="edgeStyle=none;dashed=1;endArrow=none" edge="1" parent="1">
+          <mxGeometry x="50" y="300" width="100" height="100" as="geometry">
+            <mxPoint x="-490.50000000000006" y="-1040" as="sourcePoint" />
+            <mxPoint x="-490.50000000000006" y="-260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ifs6sE3rr0sdltZZp5XB-3" value="&lt;pre style=&quot;background-color: rgb(19, 38, 35); color: rgb(168, 175, 190); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="ifs6sE3rr0sdltZZp5XB-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1" y="-330" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ifs6sE3rr0sdltZZp5XB-5" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;DispatcherServletRegistrationBean&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;dispatcherServletRegistration(DispatcherServlet dispatcherServlet,...)&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-958" y="-1039" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ifs6sE3rr0sdltZZp5XB-6" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="-960" y="-977" as="sourcePoint" />
+            <mxPoint x="-490" y="-977" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ifs6sE3rr0sdltZZp5XB-7" value="@Bean标记方法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-797" y="-969" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ifs6sE3rr0sdltZZp5XB-8" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="-1072" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
